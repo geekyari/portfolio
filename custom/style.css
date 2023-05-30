@@ -222,6 +222,26 @@ p {
     padding-bottom: 3rem;
   }
 
+.stack img {
+    width: 8em;
+    height: 6em;
+}
+
+footer {
+    background: var(--primary);
+    margin-top: 15rem;
+}
+
+footer a, footer p {
+    color: var(--tertiary);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
 
 
   
