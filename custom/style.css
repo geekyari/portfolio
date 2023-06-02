@@ -102,7 +102,7 @@ p {
 }
 
 .about img {
-  width: 70%;
+  width: 60%;
 }
 
 
@@ -111,7 +111,6 @@ p {
     position: relative;
     flex-direction: column;
     height: 100%;
-    width: 420px;
     padding: 1rem;
     border-radius: 13px;
     background: var(--primary);
@@ -217,8 +216,8 @@ p {
   }
 
   .card img {
-    width: 320px;
-    height: 180px;
+    width: 90%;
+    max-height: 100%;
   }
 
   .projects {
@@ -244,6 +243,7 @@ footer a:hover {
     text-decoration: underline;
     color: whitesmoke;
 }
+
 
 /* For 1366 Resolution */  
 @media only screen   
@@ -282,9 +282,8 @@ and (max-width: 1366px) {
   }
 
   .home img {
-    width: 100%;
-    height: 100%;
-
+    width: 90% !important;
+    margin: 0 auto;
   }
 
   .home h1 {
@@ -295,6 +294,11 @@ and (max-width: 1366px) {
   .about img {
     width: 60%;
   }
+
+  .stack img {
+    width: 4em;
+    height: 3em;
+}
 
   }
 

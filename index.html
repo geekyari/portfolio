@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="custom/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/icon.png">
 </head>
 <body>
 
@@ -84,7 +85,7 @@
           </div>
 
           <div class="col-md-6 col-12 py-4 ">
-              <p class=" text-justify px-md-0 px-2">Incoming fourth year college student majoring in Information Systems. Passionate about programming and pursuing back-end career.</p>
+              <p class="text-center px-md-0 px-2">Incoming fourth year college student majoring in Information Systems. Passionate about programming and pursuing back-end career.</p>
               <div class="row text-center info py-md-4 py-3">
                 <div class="col-4">
                   <h4 class="prim fw-bold">2+</h4>
@@ -113,18 +114,19 @@
           <p  class="text-center mb-5">Most Notable Projects</p>
         </div>
 
-        <div class="row projects gx-5">
-          <div class="col-4">
+        <div class="row projects g-md-5 g-4">
+
+          <div class="col-lg-6 col-md-6 col-12">
             <div class="card">
               <header class="card-header">
                 <p>Desktop App</p>
                 <span class="title">SMMHS - SMS</span>
               </header>
-              <div class="px-3 py-3 text-center">
+              <div class="px-md-5 px-0 py-3 text-center">
                 <img src="assets/SMMHS-SMS.png" alt="">
               </div>
               <div class="px-3 pt-3 text-justify">
-                <p>A Student Management System for San Miguel - Meysulao High School where students' data are managed, manipulated and stored.</p>
+                <p>A Student Management System for San Miguel - Meysulao High School where students' data such as personal info, grades and school forms are managed, manipulated and stored.</p>
               </div>
               <div class="tags px-2 mb-5">
                 <a href="#">C#</a>
@@ -132,17 +134,17 @@
                 <a href="#">Visual Studio</a>
                 <a href="#">Winforms</a>
               </div>
-              <button class="btn btn-proj">More Info</button>
+              <button class="btn btn-proj" data-bs-toggle="modal" data-bs-target="#exampleModal">More Info</button>
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-lg-6 col-md-6 col-12">
             <div class="card">
               <header class="card-header">
                 <p>Dynamic Web App</p>
                 <span class="title">The Sentry News Portal</span>
               </header>
-              <div class="px-3 py-3 text-center">
+              <div class="px-md-5 px-0 py-3 text-center">
                 <img src="assets/thesentry.png" alt="">
               </div>
               <div class="px-3 pt-3 text-justify">
@@ -154,17 +156,17 @@
                 <a href="#">HTML5 / CSS3</a>
                 <a href="#">Bootstrap</a>
               </div>
-              <button class="btn btn-proj">Visit Website</button>
+              <a class="btn btn-proj" href="http://thesentry.byethost9.com/" target="_blank">Visit Website</a>
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-lg-6 col-md-6 col-12">
             <div class="card">
               <header class="card-header">
                 <p>Dynamic Web App</p>
                 <span class="title">Basic CRUD Web App</span>
               </header>
-              <div class="px-3 py-3 text-center">
+              <div class="px-md-5 px-0 py-3 text-center">
                 <img src="assets/CRUD.png" alt="">
               </div>
               <div class="px-3 pt-3 text-justify">
@@ -176,23 +178,21 @@
                 <a href="#">HTML5 / CSS3</a>
                 <a href="#">Bootstrap</a>
               </div>
-              <button class="btn btn-proj">Visit Website</button>
+              <a class="btn btn-proj" href="https://marxmedia.co" target="_blank">Visit Website</a>
             </div>
           </div>
-        </div>
 
-        <div class="row projects gx-5">
-          <div class="col-4">
+          <div class="col-lg-6 col-md-6 col-12">
             <div class="card">
               <header class="card-header">
                 <p>Static Website</p>
                 <span class="title">Marx Media</span>
               </header>
-              <div class="px-3 py-3 text-center">
+              <div class="px-md-5 px-0 py-3 text-center">
                 <img src="assets/marx-media.png" alt="">
               </div>
               <div class="px-3 pt-3 text-justify">
-                <p>An immersive and captivating website for Marx Media that perfectly conveys the purpose and quality services of the company.</p>
+                <p>An immersive and captivating website for Marx Media that invites you to explore its carefully curated content, effortlessly conveying the brand's essence and purpose</p>
               </div>
               <div class="tags px-2 mb-5">
                 <a href="#">HTML5/CSS3</a>
@@ -202,13 +202,13 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-lg-6 col-md-6 col-12">
             <div class="card">
               <header class="card-header">
                 <p>Static Website</p>
                 <span class="title">Mental Health Awareness</span>
               </header>
-              <div class="px-3 py-3 text-center">
+              <div class="px-md-5 px-0 py-3 text-center">
                 <img src="assets/mental-health.png" alt="">
               </div>
               <div class="px-3 pt-3 text-justify">
@@ -221,13 +221,13 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-lg-6 col-md-6 col-12">
             <div class="card">
               <header class="card-header">
                 <p>Static Website</p>
                 <span class="title">Web Dev Presentation</span>
               </header>
-              <div class="px-3 py-3 text-center">
+              <div class="px-md-5 px-0 py-3 text-center">
                 <img src="assets/webd-presentation.png" alt="">
               </div>
               <div class="px-3 pt-3 text-justify">
@@ -245,18 +245,18 @@
     </section>
 
     <section>
-      <div class="container py-5" id="tech-stack">
+      <div class="container py-md-5 py-0" id="tech-stack">
         <div class="row">
           <h2 class="text-center prim">My Tech Stack</h2>
           <p  class="text-center mb-5">Technologies I've been working with</p>
         </div>
-        <div class="row stack d-flex justify-content-around px-5 pb-5">
+        <div class="row stack d-flex justify-content-around px-md-5 px-3 pb-md-5 pb-3">
           <img src="assets/html-5.png" class="img-fluid">
           <img src="assets/css-3.png" class="img-fluid">
           <img src="assets/bootstrap.png" class="img-fluid">
           <img src="assets/visual-studio.png" class="img-fluid">
         </div>
-        <div class="row stack d-flex justify-content-around px-5">
+        <div class="row stack d-flex justify-content-around px-md-5 px-3">
            <img src="assets/php.png" class="img-fluid">
            <img src="assets/mysql.png" class="img-fluid">
            <img src="assets/c-sharp.png" class="img-fluid">
@@ -265,13 +265,13 @@
     </section>
 
     <footer>
-      <div class="row py-5 mx-5">
+      <div class="row py-5 mx-md-5 mx-0">
 
-        <div class="col-4">
-          <img src="assets/logo_grey.png" class="img-fluid w-75 px-5">
+        <div class="col-md-4 col-12 order-md-1 order-1 my-auto">
+          <img src="assets/logo_grey.png" class="img-fluid w-md-75 w-100 px-lg-5 px-md-0 px-5">
         </div>
 
-        <div class="col-4 text-center my-auto">
+        <div class="col-md-4 col-12 text-center my-auto  order-md-2 order-3">
           <div class="row">
             <div class="col links">
               <a href="/" class="px-2">Home</a>
@@ -285,7 +285,7 @@
           </div>
         </div>
 
-        <div class="col-4 text-center my-auto">
+        <div class="col-md-4 col-12 text-center my-auto  order-md-3 order-2 py-md-0 py-5">
           <div class="row">
             <div class="col">
               <a href="https://www.linkedin.com/in/arrian-tolentino/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
@@ -297,6 +297,79 @@
 
       </div>
     </footer>
+
+    <!-- SMMHS SMS MODAL -->
+
+    <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">SMMHS Student Management System</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>SMMHS- SMS, a system that aids the teachers to lessen their workload by digitizing the data and information of every student. It saves time, minimize errors, and provide soft copies of students' school forms.</p>
+
+            <a href="assets/SMMHS-SMS-Documentation.pdf" download="SMMHS-SMS-Documentation.pdf" class="btn btn-black py-2 my-3">Full Documentation <i class="fa-solid fa-chevron-right"></i></a>
+
+            <div class="row py-3 mx-md-5 mx-1">
+              <h5>Login and Dashboard</h5>
+              <div class="col-6 my-auto"><img src="assets/smmhs-sms-login.png" class="img-fluid" alt=""></div>
+              <div class="col-6 my-auto"><img src="assets/SMMHS-SMS.png" class="img-fluid" alt=""></div>
+            </div>
+
+            <div class="row py-3 mx-md-5 mx-1">
+              <h5>Adding, Viewing and Updating Students' Data</h5>
+              <div class="col-4 text-center">
+                <img src="assets/smmhs-sms-addstudent.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="assets/smmhs-sms-viewstudent.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="assets/smmhs-sms-updatestudent.png" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="row py-3 mx-md-5 mx-1">
+              <h5>Export/Print and Manage Tables</h5>
+              <div class="col-6 text-center">
+                <img src="assets/smmhs-sms-managetable.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-6 text-center">
+                <img src="assets/smmhs-sms-exporttable.png" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="row py-3 mx-md-5 mx-1">
+              <h5>JHS and SHS Tables</h5>
+              <div class="col-6 text-center">
+                <img src="assets/smmhs-sms-jhstable.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-6 text-center">
+                <img src="assets/smmhs-sms-shstable.png" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="row py-3 mx-md-5 mx-1">
+              <h5>JHS and SHS School Form 10</h5>
+              <div class="col-6 text-center">
+                <img src="assets/smmhs-sms-sf10jhs.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-6 text-center">
+                <img src="assets/smmhs-sms-sf10shs.png" class="img-fluid" alt="">
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
